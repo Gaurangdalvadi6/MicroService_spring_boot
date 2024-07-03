@@ -1,0 +1,10 @@
+package com.quiz.exception;
+
+import org.springframework.http.ProblemDetail;
+import org.springframework.web.bind.annotation.RestControllerAdvice;
+
+@RestControllerAdvice
+public class GlobalExceptionHandler {
+
+//	public ProblemDetail 
+}
