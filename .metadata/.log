@@ -500,3 +500,34 @@ Contains: Missing org.springframework.cloud:spring-cloud-starter-netflix-eureka-
 
 !ENTRY org.springframework.tooling.boot.ls 1 0 2024-07-03 21:10:21.138
 !MESSAGE Boot project REMOVED: ServiceRegistry
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-07-03 21:14:49.221
+!MESSAGE Classpath changed for project: ServiceRegistry
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-07-03 21:14:49.222
+!MESSAGE Boot project ADDED: ServiceRegistry
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-07-03 21:14:51.474
+!MESSAGE Classpath changed for project: ServiceRegistry
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-07-03 21:29:13.026
+!MESSAGE Builder must not be set
+!STACK 0
+java.lang.IllegalStateException: Builder must not be set
+	at org.eclipse.mylyn.wikitext.parser.MarkupParser.parseToHtml(MarkupParser.java:114)
+	at org.eclipse.lsp4e.LSPEclipseUtils.lambda$27(LSPEclipseUtils.java:1359)
+	at org.eclipse.lsp4j.jsonrpc.messages.Either.map(Either.java:75)
+	at org.eclipse.lsp4e.LSPEclipseUtils.getHtmlDocString(LSPEclipseUtils.java:1348)
+	at org.eclipse.lsp4e.operations.completion.LSCompletionProposal.getAdditionalProposalInfo(LSCompletionProposal.java:349)
+	at org.eclipse.lsp4e.operations.completion.LSCompletionProposal.getAdditionalProposalInfo(LSCompletionProposal.java:1)
+	at org.eclipse.jface.text.contentassist.AdditionalInfoController$Timer$2$1.run(AdditionalInfoController.java:116)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-07-03 22:05:16.278
+!MESSAGE Classpath changed for project: QuestionService
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-07-03 22:05:16.364
+!MESSAGE Classpath changed for project: QuestionService
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-07-03 22:06:06.252
+!MESSAGE Classpath changed for project: QuizService
