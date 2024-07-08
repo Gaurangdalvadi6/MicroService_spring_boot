@@ -1,5 +1,0 @@
-package com.quiz.exception;
-
-public class GlobalException {
-
-}
