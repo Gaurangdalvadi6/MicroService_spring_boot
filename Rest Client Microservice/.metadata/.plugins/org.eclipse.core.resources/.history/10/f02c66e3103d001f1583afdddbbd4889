@@ -1,0 +1,20 @@
+package com.restTemplet.service;
+
+import org.springframework.stereotype.Service;
+import org.springframework.web.client.RestClient;
+
+import ch.qos.logback.core.net.server.Client;
+
+@Service
+public class TodoService {
+
+	private RestClient client;
+
+	public TodoService(RestClient client) {
+		super();
+		this.client = client;
+	}
+	
+	// call to api to get todo data
+	client.
+}

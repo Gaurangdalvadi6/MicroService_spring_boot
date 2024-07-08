@@ -1,0 +1,5 @@
+package com.restTemplet.config;
+
+public class RestConfig {
+
+}

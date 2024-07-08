@@ -1,0 +1,5 @@
+package com.restTemplet.entity;
+
+public class Todo {
+
+}

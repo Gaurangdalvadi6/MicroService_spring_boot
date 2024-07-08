@@ -1,0 +1,30 @@
+package com.restTemplet.service;
+
+import org.springframework.stereotype.Service;
+import org.springframework.web.client.RestClient;
+
+import com.restTemplet.entity.Todo;
+
+import ch.qos.logback.core.net.server.Client;
+
+@Service
+public class TodoService {
+
+	private RestClient client;
+
+	public TodoService(RestClient client) {
+		super();
+		this.client = client;
+	}
+
+	// get single todo
+	public Todo getTodo(int id) {
+		
+		// call to api to get todo data
+		Todo body = client.get()
+				.uri("/todos/{id}",id)
+				.retrieve()
+				.body(Todo.class);
+		return body;
+	}
+}
